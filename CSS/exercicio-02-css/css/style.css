@@ -8,3 +8,22 @@ main {
     display: table;
     margin: 100px auto 0;
 }
+
+.card-container {
+    width: 270px;
+    display: table;
+
+    >.card {
+        width: 100%;
+        display: table;
+        background-color: #FFF;
+        border-radius: 8px;
+        box-shadow: 8px 8px 12px rgba(0, 0, 0, .05);
+
+        >.card-image {
+            border-radius: 6px;
+            display: block;
+            margin: 15px;
+        }
+        }
+    }
